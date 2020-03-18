@@ -107,7 +107,7 @@ def decode_jwt():
 
 def _get_jwt(user_data):
     """
-    This function get jwt.
+    This function get jwt .
     """
     exp_time = datetime.datetime.utcnow() + datetime.timedelta(weeks=2)
     payload = {
